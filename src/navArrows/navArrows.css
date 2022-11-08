@@ -1,0 +1,21 @@
+.navArrow{
+    margin-top: 300px;
+    width: 200px;
+    height: 100px;
+    background-color: whitesmoke;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowLeft{
+    font-size: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.arrowRight{
+    font-size: 50px;
+    cursor: pointer;
+}

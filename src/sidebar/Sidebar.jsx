@@ -17,6 +17,9 @@ export default function Sidebar() {
                 <li className="sidebarListItem">Travel</li>
                 <li className="sidebarListItem">Techonology</li>
                 <li className="sidebarListItem">Art</li>
+                <li className="sidebarListItem">Music</li>
+                <li className="sidebarListItem">Daily</li>
+                <li className="sidebarListItem">All Categories</li>
             </ul>
         </div>
 

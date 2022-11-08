@@ -1,5 +1,7 @@
 .header{
+    
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .headerTitles{
@@ -21,7 +23,7 @@
 
 .headerImg{
     width: 100%;
-    height: 600px;
+    height: 500px;
     margin-top: 70px;
     object-fit: contain;
     border-radius: 255%;

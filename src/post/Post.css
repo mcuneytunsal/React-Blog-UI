@@ -1,0 +1,57 @@
+.post{
+    width: 400px;
+    margin: 20px 25px 40px 25px;
+    background-color: whitesmoke;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 513px;
+}
+
+.postImg{
+    margin-top: 15px;
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.postTitle{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Varela', sans-serif;
+    cursor: pointer;
+
+}
+
+.postTxt{
+    margin: 10px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+}
+
+.bosbeles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.postAuthor{
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
+}
+
+.postDate{
+    margin-left: 280px;
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.postCtg{
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
