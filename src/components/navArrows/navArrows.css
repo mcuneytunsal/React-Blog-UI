@@ -1,9 +1,10 @@
 .navArrow{
     margin-top: 300px;
     width: 200px;
-    height: 100px;
     background-color: whitesmoke;
-    border-radius: 5%;
+    border-radius: 7%;
+    margin-bottom: 200px;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;

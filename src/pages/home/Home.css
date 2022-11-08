@@ -2,6 +2,7 @@
     background-color: rgb(252, 252, 252);
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 1%;
 }
 

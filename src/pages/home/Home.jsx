@@ -1,10 +1,10 @@
 import "./Home.css"
-import Header from "../header/Header"
+import Header from "../../components/header/Header"
 
 import React from 'react'
-import Posts from "../posts/Posts"
-import Sidebar from "../sidebar/Sidebar"
-import NavArrows from "../navArrows/NavArrows"
+import Posts from "../../components/posts/Posts"
+import Sidebar from "../../components/sidebar/Sidebar"
+import NavArrows from "../../components/navArrows/NavArrows"
 
 
 export default function Home() {

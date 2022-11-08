@@ -8,6 +8,8 @@
     border-radius: 4%;
     margin-right: 25px;
     margin-top: 20px;
+    margin-left: 20px;
+    flex: 3;
 }
 
 .sidebarItem{
