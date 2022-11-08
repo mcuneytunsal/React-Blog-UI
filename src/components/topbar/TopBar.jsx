@@ -1,4 +1,5 @@
 import "./TopBar.css"
+import { Link } from "react-router-dom"
 
 export default function TopBar() {
   return (
@@ -13,9 +14,15 @@ export default function TopBar() {
 
         <div className="topCenter">
             <ul className="topList">
-                <li className="topListItem">HOME</li>
-                <li className="topListItem">POST</li>
-                <li className="topListItem">ABOUT</li>
+                <li className="topListItem">
+                    <Link to={'/'} style={{textDecoration:"none", color:'inherit'}}>HOME</Link>
+                </li>
+                <li className="topListItem">
+                    <Link to={'/write'} style={{textDecoration:"none", color:'inherit'}} >WRITE</Link>
+                </li>
+                <li className="topListItem">
+                    <Link to={'/single'} style={{textDecoration:"none", color:'inherit'}} >RANDOM</Link>
+                </li>
                 <li className="topListItem">CONTACT</li>
             </ul>
         </div>

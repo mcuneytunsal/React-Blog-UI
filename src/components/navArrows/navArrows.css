@@ -12,11 +12,17 @@
 
 .arrowLeft{
     font-size: 50px;
-    margin-right: 50px;
+    margin-right: 30px;
     cursor: pointer;
+}
+
+.pageNo{
+    font-size: 30px;
+    margin-right: 40px;
 }
 
 .arrowRight{
     font-size: 50px;
+    margin-left: -10px;
     cursor: pointer;
 }
