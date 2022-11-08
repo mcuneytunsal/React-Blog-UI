@@ -1,6 +1,6 @@
 .top{
     width: 100%;
-    height: 50px;
+    height: 60px;
     background-color: rgb(231, 227, 227);
     position: sticky;
     top: 0;
@@ -10,11 +10,20 @@
     justify-content: center;
 }
 
-.topLeft, .topRight{
+.topLeft{
+    margin-left: 30px;
     flex: 3;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+}
+
+.topRight{
+    margin-right: 30px;
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 .topCenter{

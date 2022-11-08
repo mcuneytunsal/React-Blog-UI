@@ -1,11 +1,14 @@
 import TopBar from "./topbar/TopBar";
+import Header from "./header/Header";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
       <TopBar/>
-      <p>topbarin altinda yazi sekli</p>
+      <Home/>
     </>
+    
   );
 }
 
